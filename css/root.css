@@ -1,0 +1,33 @@
+:root {
+  /* Colors */
+  --dls-dark-color: #1b2432;
+  --dls-light-color: #f1f9fc;
+  --dls-light2-color: rgba(250, 250, 250, 0.8);
+  --dls-primary-color: #e56363;
+  --dls-secondary-color: #333743;
+  --dls-action-color: #c9e7da;
+  --dls-highlight-color: #ff5d5d;
+  --dls-background-color: rgba(250, 250, 250, 0.8);
+  --dls-nav-toggler-glow: #f1f9fc;
+  --dls-nav-toggler-color: #1b2432;
+  --dls-title-color: var(var(--dls-secondary-color));
+
+  /* App Colors */
+  --dls-app-color1: rgb(223, 202, 21);
+  --dls-app-background-color: #ffffda;
+
+  /* Text */
+  --dls-font-size: 1.2rem;
+  --dls-font-weight: 400;
+  --dls-line-height: 1.5rem;
+
+  /* Cards */
+  --dls-card-radius: 12px;
+
+  /* Modals */
+
+  --dls-modal-radius: 20px;
+
+  /* Transition */
+  --dls-transition-time: 270ms ease;
+}

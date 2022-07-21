@@ -1,0 +1,225 @@
+
+
+/* Sticky footer setup */
+
+html,
+body {
+  position: relative;
+  color: #212121;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dls-app-background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", "Lato", sans-serif;
+  font-weight: 600;
+}
+
+li {
+  margin-top: 15px;
+}
+
+.content {
+  flex: 1;
+  margin-top: 6rem;
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: black;
+  color: var(--dls-light-color);
+  padding: 20px;
+  /* Sticky Footer Setup */
+}
+
+/* Navigation Overides */
+#mainNav {
+  background-color: var(--dls-app-background-color);
+  font-weight: 600;
+  font-family: "Montserrat", "Lato", sans-serif;
+}
+
+#appName {
+  font-weight: 500;
+}
+
+#mainNav button {
+  border-color: var(--dls-secondary-color);
+}
+
+.navbarTogglerIcon-dls {
+  color: var(--dls-secondary-color);
+}
+
+.navbar-toggler {
+  color: var(--dls-light-color) !important;
+}
+
+/* Navigation Overides */
+
+/* BS button overides */
+.btn-primary {
+  color: white !important;
+  background-color: var(--dls-primary-color) !important;
+  border: none !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  filter: brightness(1.1) !important;
+  transition: 200ms ease;
+}
+
+.btn-outline-primary {
+  color: var(--dls-secondary-color) !important;
+  border-color: var(--dls-primary-color) !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:focus {
+  background-color: var(--dls-primary-color);
+  color: white !important;
+  filter: brightness(1.1) !important;
+  transition: 200ms ease;
+}
+
+/* BS button overides end*/
+
+.checklist {
+  list-style-type: none;
+  line-height: 1.5rem;
+}
+
+.checklist > li i {
+  color: var( --dls-app-color1);
+  font-size: 1rem;
+  padding-right: 2px;
+}
+
+.devicons {
+  font-size: 3.5rem;
+  color: var( --dls-app-color1) !important;
+}
+
+.social {
+  font-size: 2.5rem;
+}
+
+.social > a {
+  color: var(--dls-light-color);
+  opacity: 0.6;
+}
+
+.social > a:hover {
+  color: var(--dls-action-color);
+  opacity: 1;
+  transition: 500ms;
+}
+
+.resultStyle {
+  font-weight: bold;
+  color: black;
+  background-color: #d8d8d8;
+  padding: 1rem;
+}
+
+.resultStyleLight {
+  font-weight: bold;
+  color: black;
+  background-color: #ebebeb;
+  padding: 1rem;
+}
+
+
+
+.numberChoice {
+  border-radius: 15px;
+  z-index: 1;
+  margin-bottom: 2rem;
+  background-color: black;
+  color: white;
+}
+
+.numberChoice h4 {
+  margin-bottom: 15px;
+  margin-top: 7px;
+  color: var( --dls-app-color1);
+  text-align: center;
+}
+
+.numberChoice input {
+  border-radius: 5px;
+  border: none !important;
+  padding: 7px;
+  margin-bottom: 15px;
+}
+
+#results div {
+  border-radius: 100px;
+  border: 5px solid var(--dls-app-background-color);
+  text-align: center;
+}
+
+.honeycombBG {
+  background-image: url(/img/jonas-hensel-3Cpws7ibtfo-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem;
+}
+
+
+ .minHeight{
+  min-height: 15vh;
+ }
+
+
+#fizzBuzzMainLogo {
+  width: 100%;
+}
+
+/* MEDIA QUERIES */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #fizzBuzzMainLogo {
+    width: 70%;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #fizzBuzzMainLogo {
+    width: 60%;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #fizzBuzzMainLogo {
+    width: 50%;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  #fizzBuzzMainLogo {
+    width: 37%;
+  }
+}
